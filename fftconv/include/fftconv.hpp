@@ -165,7 +165,7 @@ namespace fftconv {
 								data[(height-1)*width + width-1]);
 
 					// make the block of bl
-					first_element_ptr = ws.in_src + height * ws.w_fftw + ws.w_fftw - 1 - kw;
+					first_element_ptr = ws.in_src + height * ws.w_fftw + ws.w_fftw - kw;
 					for(int i = 0; i <= kh; ++i)
 						std::fill(first_element_ptr + i * ws.w_fftw, 
 								first_element_ptr + i * ws.w_fftw + kw, 
