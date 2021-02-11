@@ -9,3 +9,7 @@ In its scope, this single header C++ is restricted to :
 - 1D/2D convolutions
 - with either zero or constant padding
 - for linearly decreasing or gaussian kernels
+
+Once compiled and installed, you should be able to compile your code with 
+
+	g++ -o myexample myexample.cpp $(pkg-config --libs --cflags fftconv)
