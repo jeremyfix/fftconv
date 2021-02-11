@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.10)
 # Project definition, this sets the variable 
 # ${CMAKE_PROJECT_NAME} and ${PROJECT_VERSION}
 project(fftconv
-		VERSION 1.51)
+		VERSION 0.1)
 
 # Sets up the compile flags  
 set(CMAKE_BUILD_TYPE Release)
