@@ -43,7 +43,7 @@ int main(int argc, char* argv[]) {
 
 	// Fill in some new data and compute the convolution with the same kernel
 	std::fill(data.begin(), data.end(), 2.0);
-	processor.convolve()
+	processor.convolve();
 }
 
 ```
